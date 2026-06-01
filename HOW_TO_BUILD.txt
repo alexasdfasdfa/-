@@ -1,0 +1,9 @@
+If compile.bat shows garbled errors:
+  1. Right-click compile.ps1 -> Run with PowerShell
+  OR
+  2. Open cmd in this folder and run:
+       xelatex -interaction=nonstopmode main.tex
+       xelatex -interaction=nonstopmode main.tex
+
+References are in main.tex (thebibliography). Run xelatex TWICE.
+Citations appear as [1], [2], ... after the second run.

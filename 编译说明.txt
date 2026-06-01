@@ -1,0 +1,25 @@
+编译失败 / 无引用的常见原因与解决办法
+========================================
+
+【原因1】旧版 compile.bat 中文乱码，xelatex 根本没运行
+  -> 请使用当前目录下新版 compile.bat（纯英文）
+
+【原因2】只编译了一遍
+  -> 必须连续运行两遍 xelatex，第二遍才会出现 [1][2] 引用
+
+【原因3】大图导致 xelatex 看似“卡死”
+  -> 请先运行: python extract_images.py  （会压缩图片）
+  -> 或耐心等待 3-8 分钟
+
+【推荐手动编译】在本文件夹地址栏输入 cmd 回车，依次执行：
+
+  del main.aux
+  xelatex -interaction=nonstopmode main.tex
+  xelatex -interaction=nonstopmode main.tex
+
+【成功标志】
+  - 生成 main.pdf
+  - 正文有 [1]、[2] 等编号
+  - 文末有“参考文献”22条
+
+若仍失败，把 main.log 里带 ! 的几行发给助教/同学帮忙看。

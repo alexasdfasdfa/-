@@ -1,0 +1,25 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bcf
+*.blg
+*.bbl
+*.run.xml
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Optional: uncomment to exclude PDF from repo
+# main.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Large draft (keep locally)
+*.docx
+draft_extracted.txt

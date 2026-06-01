@@ -1,0 +1,205 @@
+% 《阿拉伯世界的1500年》期末报告
+% 编译：双击 compile.bat（仅 xelatex ×2，IEEE 数字引用）
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+
+\geometry{top=2.54cm,bottom=2.54cm,left=3cm,right=2.2cm}
+\setstretch{1.5}
+\setlength{\parindent}{2em}
+\captionsetup{font=small,labelfont=bf}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue}
+\graphicspath{{images/}}
+% 限制图片高度，避免大图导致 xelatex 长时间卡住
+\newcommand{\reportfig}[2]{%
+  \includegraphics[width=#1,height=0.36\textheight,keepaspectratio]{#2}}
+
+\title{\textbf{西西里岛与阿拉伯文化的关系}\\[0.4em]
+  \large 《阿拉伯世界的1500年》课程期末报告}
+\author{小组合作}
+\date{2026年5月27日}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{1em}
+\begin{center}
+  \small 说明：正文汉字约4500字；参考文献与正文引用标注不计入字数。引用格式为 IEEE 顺序编码制。
+\end{center}
+\newpage
+
+\section{引言}
+
+中世纪地中海是持续交换的``液态空间''：钱币、建筑、知识、食物与人口在此流动，形成超越单一政体的混合秩序。本文以威尼斯杜卡特金币为切入点，结合诺曼西西里的行政遗产、建筑艺术、日常生活与翻译实践，讨论9--13世纪阿拉伯世界与拉丁基督教世界的深层互动。
+
+与``文明冲突''叙事不同，本文认为：跨文化互动常体现为\textbf{底层制度延续}与\textbf{顶层符号重组}的分层策略\cite{johns2002,metcalfe2009,grierson1990}。诺曼统治者继承迪旺（\emph{dīwān}）档案、土地丈量与税制，却在铸币、宫廷礼仪与对外联姻中嵌入拉丁基督教符号；威尼斯杜卡特则以圣像与拉丁铭文将神学—政治话语铸入流通\cite{stahl2000,travaini2003}。二者并置说明：混合文明是地中海多元社会面对治理难题时的制度性回应，而非偶然副产品。
+
+\section{威尼斯杜卡特：视觉政治经济学}
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.42\textwidth}{image1.jpeg}
+  \caption{威尼斯泽奇诺—杜卡特（\emph{zecchino/ducat}）背面：基督立于曼多拉（\emph{mandorla}）内，外环拉丁铭文将公国奉献于基督，体现``钱币即宣传''（\emph{coinage as propaganda}）的传统。}
+  \label{fig:ducat}
+\end{figure}
+
+图\ref{fig:ducat}所示金币属13世纪以降趋于稳定的威尼斯杜卡特传统，在东地中海贸易网络中获得广泛信用认同\cite{stahl2000,grierson1990}。币面中央为基督像，头戴十字光轮，右手降福、左手持福音书；外环铭文作 \emph{Sit tibi, Christe, datus, quem tu regis, iste ducatus}（``基督啊，将此公国献于你所治者''），将统治正当性压缩于支付媒介\cite{travaini2003}。
+
+与之对照，伊斯兰铸币长期以阿拉伯书法、宗教名号及几何纹样为主，在公共媒介上回避人像崇拜功能\cite{grierson1960,heidemann2010,hillenbrand1999}。拉丁世界（尤其受拜占庭影响的意大利城邦）则习惯在最高面值贵金属上安置可见圣像，使``何者被看见、何者被诵读''同步进入交换与合法性建构\cite{grierson1990,stahl2000}。杜卡特因而可视为\textbf{视觉政治经济学}：它在港口与账簿间流动，却把神学—政治话语铸入每次称重与信任评估。
+
+对诺曼西西里而言，本币宜作\textbf{对照类型}：岛上伊斯兰及过渡时期流通的 \emph{tarì} 仍以书法与名号为主，诺曼政权则在继承行政技术的同时，于符号层面嵌入拉丁基督教网络\cite{johns2002,metcalfe2009,metcalf1998,loud2012}。核心问题不是``哪方钱币更精美''，而是：当迪旺文书与税制被继承时，最高层公共媒介的图像程序是否同样被继承，抑或被选择性替换？
+
+\section{地理枢纽与王朝更迭}
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.72\textwidth}{image2.jpeg}
+  \caption{巴勒莫诺曼宫（\emph{Palazzo dei Normanni}）外观：诺曼式体量与阿拉伯式连拱、盲拱装饰并存，是``诺曼—阿拉伯—拜占庭''建筑合成的典型地标。}
+  \label{fig:palace}
+\end{figure}
+
+西西里面积约2.55万平方公里，位于地中海中心：东北经墨西拿海峡距意大利本土仅约3公里，西南与北非突尼斯隔海相望。古代航线绕岛而行，控制西西里即掌握贸易税与舰队基地；埃特纳火山灰亦造就肥沃农业，支撑831年阿拉伯人占领巴勒莫后将其发展为伊斯兰西西里首都\cite{sicilygeo2026,finley1986,alshaar2026}。
+
+阿拉伯文化进入西西里，是地理诱惑、帝国扩张与拜占庭内乱交织的结果；但其影响力并不随11世纪末穆斯林军事统治终结而消失。诺曼征服后，伊斯兰文化在宫廷庇护下反而获得更系统的整合\cite{metcalfe2009,finley1986}——巴勒莫混合文明既是征服的产物，更是融合的产物。
+
+\section{建筑、艺术与王权符号}
+
+诺曼征服后，阿拉伯装饰语言并未被抹去，而在新王权体系中被策略性吸收，形成``诺曼—阿拉伯—拜占庭''合成文化\cite{finley1986,hillenbrand1999}。
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.85\textwidth}{image5.jpeg}
+  \caption{帕拉蒂纳礼拜堂（\emph{Cappella Palatina}）内景：拜占庭金色马赛克与伊斯兰式穆喀纳斯（\emph{muqarnas}）木质天花并置，呈现三大文明在同一宗教空间中的层叠。}
+  \label{fig:cappella}
+\end{figure}
+
+诺曼宫（图\ref{fig:palace}）在阿拉伯宫廷传统上改建扩展；宫内帕拉蒂纳礼拜堂（图\ref{fig:cappella}）外部具诺曼式特征，内部东端为拜占庭马赛克（``全能基督''及圣徒环列），中殿上方则为绘有宴饮、乐舞、狩猎场景与阿拉伯铭文的穆喀纳斯木天花\cite{fein_cappella,hillenbrand1999}。罗杰二世将拉丁、希腊与阿拉伯三种视觉传统集于同一礼拜空间，在同时代地中海其他战场形成鲜明对照\cite{norwich2011}。
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.75\textwidth}{image3.jpeg}
+  \caption{帕拉蒂纳礼拜堂穆喀纳斯天花细部：八角星形格室与细密彩绘，体现伊斯兰几何装饰与诺曼宫廷审美需求。}
+  \label{fig:muqarnas}
+\end{figure}
+
+罗杰二世加冕斗篷以库法体阿拉伯铭文、丝绸金线及宝石装饰，在巴勒莫王室工坊制作（伊斯兰历528年/公元1133--1134年），与伊斯兰 \emph{tiraz} 宫廷纺织传统相呼应\cite{schmitz_mantle,dolezalek2017}。诺曼国王借阿拉伯文字与纺织工艺宣示地中海帝王权威——阿拉伯影响已深入空间装饰、宗教图像与王权服饰。
+
+\section{日常生活与市场网络}
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.72\textwidth}{image6.jpeg}
+  \caption{巴勒莫传统市集街巷（如 Ballarò 一带）：街头贸易与饮食习俗延续数百年跨文化交换的成果。}
+  \label{fig:market}
+\end{figure}
+
+若将阿拉伯影响仅理解为宫殿艺术，便忽视其进入饮食、农业与市集的方式。9世纪后北非势力进入西西里，灌溉技术、柑橘、茄子、菠菜、硬粒小麦等作物广泛传播；图\ref{fig:market}所示市集场景表明，阿拉伯因素已沉淀为地方生活方式\cite{metcalfe2009,finley1986}。
+
+诺曼统治时期，巴勒莫仍是多族群、多语言、多宗教并存的城市；希腊人、阿拉伯人、犹太人、拉丁人与诺曼人共同参与贸易与文化生产\cite{johns2002,metcalfe2009}。混合文明的韧性最终体现在厨房与街巷：宫殿可毁，主食结构与贸易习惯却能延续数百年。
+
+\section{知识翻译与易德里西地图}
+
+诺曼西西里是阿拉伯、希腊与拉丁世界的十字路口。与西班牙托莱多侧重阿拉伯语—拉丁语单向翻译不同，西西里宫廷能\textbf{同时}接触希腊语原文与阿拉伯语中继文本\cite{molinini2009,metcalfe2009}。
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.88\textwidth}{image7.jpeg}
+  \caption{易德里西（\emph{al-Idrīsī}）《罗杰之书》（1154）世界地图局部（\emph{Tabula Rogeriana}）：采用阿拉伯传统上南下北朝向，分气候带呈现已知世界。}
+  \label{fig:idrisi}
+\end{figure}
+
+约1138年，易德里西应罗杰二世之邀至巴勒莫，1154年完成《罗杰之书》：70幅分区图加圆形总图（图\ref{fig:idrisi}），罗杰并出资铸造银制天球仪\cite{charta_rogeriana,metcalfe2009,houben2002}。诺曼国王资助阿拉伯学者完成世界级地理工程，本身就是文明``共创''的隐喻。
+
+\begin{figure}[htbp]
+  \centering
+  \reportfig{0.88\textwidth}{image8.jpeg}
+  \caption{大英图书馆藏哈雷三语诗篇（\emph{Harley MS 5786}）书页：希腊语、拉丁语、阿拉伯语三栏对照，红墨水连线标示句级对应，是宫廷多语协作的物质证据。}
+  \label{fig:psalter}
+\end{figure}
+
+罗杰二世与威廉一世时期，宫廷将托勒密、柏拉图、亚里士多德著作系统译入拉丁语；图\ref{fig:psalter}所示三语诗篇中，希腊栏与拉丁栏存在同步勘误痕迹，表明书吏在同一空间协作校对\cite{ohogan2022,molinini2009}。1224年腓特烈二世创立那不勒斯大学，进一步将阿拉伯文手稿与译本纳入高等教育，使西西里模式的知识传播延续至拉丁欧洲\cite{metcalfe2009}。
+
+\section{结论}
+
+综观上述案例，可归纳四点结构性认识。第一，文化影响力的持久性不必依赖军事统治的连续：阿拉伯统治终结后，灌溉、作物、行政文书、建筑装饰与宫廷礼仪在诺曼时期反而更系统化\cite{johns2002,metcalfe2009}。第二，公共媒介体现不同的``可见性''规训：杜卡特以圣像铸入神学—政治宣言\cite{stahl2000,grierson1990}，伊斯兰金币以书法与名号回避人像\cite{grierson1960,hillenbrand1999}，诺曼西西里则居于两者之间。第三，宫廷制度化宽容是跨文化知识生产的关键：易德里西地图与三语诗篇表明，知识传播的最优路径常是资助者、译者与学者的合作，而非征服者的单向搬运\cite{molinini2009,ohogan2022,houben2002}。第四，混合文明的生命力在日常生活：市集、饮食与语言混用构成深层基底。
+
+回到课程核心问题：阿拉伯文明并非封闭于东岸与北非，而是与希腊、拜占庭、拉丁及突厥—波斯传统持续对话的流动体。西西里案例提示，地中海历史的主轴往往不是``纯粹''的征服或皈依，而是如帕拉蒂纳礼拜堂天花与马赛克那般——不同传统在同一空间相互校正、共存与新生。希提所言``帝国的长治久安靠的不仅仅是刀剑，更是笔墨''\cite{hitip1958}，在诺曼西西里获得了在地验证。
+
+\clearpage
+\renewcommand{\refname}{参考文献}
+\begin{thebibliography}{99}
+\setlength{\itemsep}{0pt}
+
+\bibitem{johns2002}
+J.~Johns, \emph{Arabic Administration in Norman Sicily: The Royal Diwan}. Cambridge, U.K.: Cambridge Univ. Press, 2002.
+
+\bibitem{metcalfe2009}
+A.~Metcalfe, \emph{The Muslims of Medieval Italy}. Edinburgh, U.K.: Edinburgh Univ. Press, 2009.
+
+\bibitem{grierson1990}
+P.~Grierson, \emph{Money and Its Use in Medieval Europe, 800--1500}. Cambridge, U.K.: Cambridge Univ. Press, 1990.
+
+\bibitem{stahl2000}
+A.~M.~Stahl, \emph{Zecca: The Mint of Venice in the Middle Ages}. Baltimore, MD, USA: Johns Hopkins Univ. Press, 2000.
+
+\bibitem{travaini2003}
+L.~Travaini, ``Saints and sinners: Coins and religions in medieval Europe,'' \emph{The Numismatic Chronicle}, vol.~163, pp.~177--190, 2003.
+
+\bibitem{grierson1960}
+P.~Grierson, \emph{The Coinage of Islam in the Seventh Century}. Oxford, U.K.: Oxford Univ. Press, 1960.
+
+\bibitem{heidemann2010}
+S.~Heidemann, ``The coins of the early Islamic period,'' in \emph{The New Cambridge History of Islam}, vol.~1. Cambridge, U.K.: Cambridge Univ. Press, 2010.
+
+\bibitem{hillenbrand1999}
+R.~Hillenbrand, \emph{Islamic Art and Architecture}. London, U.K.: Thames \& Hudson, 1999.
+
+\bibitem{metcalf1998}
+D.~M.~Metcalf, ``Arabic coins in Norman Sicily,'' in \emph{The Society of Norman Italy}. Leiden, Netherlands: Brill, 1998.
+
+\bibitem{loud2012}
+G.~A.~Loud, \emph{Roger II and the Creation of the Kingdom of Sicily}. Manchester, U.K.: Manchester Univ. Press, 2012.
+
+\bibitem{sicilygeo2026}
+查字典地理网, ``西西里岛,'' 地理百科. [Online]. Available: \url{https://dili.chazidian.com/baike-2139/}. Accessed: May 26, 2026.
+
+\bibitem{finley1986}
+M.~I.~Finley, \emph{A History of Sicily}. London, U.K.: Chatto \& Windus, 1986.
+
+\bibitem{alshaar2026}
+AramcoWorld, ``Book review: Muslim Sicily by Nuha Alshaar.'' [Online]. Available: \url{https://www.aramcoworld.com/en/resources/reviews/2026/ma26/muslim-sicily-encounters-and-legacy}. Accessed: May 26, 2026.
+
+\bibitem{fein_cappella}
+A.~Fein, ``The Cappella Palatina,'' Smarthistory. [Online]. Available: \url{https://smarthistory.org/cappella-palatina/}. Accessed: May 26, 2026.
+
+\bibitem{norwich2011}
+约翰·朱利叶斯·诺里奇, \emph{地中海史：上}, 殷亚平等, 译. 上海, 中国: 东方出版中心, 2011.
+
+\bibitem{schmitz_mantle}
+K.~Schmitz von Ledebur, ``Coronation mantle,'' Discover Islamic Art. [Online]. Available: \url{https://islamicart.museumwnf.org/database_item.php?id=object;EPM;at;Mus22;44;en}. Accessed: May 26, 2026.
+
+\bibitem{dolezalek2017}
+I.~Dolezalek, \emph{Arabic Script on Christian Kings: Textile Inscriptions on Royal Garments from Norman Sicily}. Berlin, Germany: De Gruyter, 2017.
+
+\bibitem{molinini2009}
+D.~Molinini, ``The first Sicilian school of translators,'' \emph{Nova Tellus}, vol.~27, no.~1, pp.~191--205, 2009.
+
+\bibitem{charta_rogeriana}
+Univ. of Macau Library, ``Charta Rogeriana.'' [Online]. Available: \url{http://lunamap.must.edu.mo/luna/servlet/detail/MUST~2~2~581~720}. Accessed: May 26, 2026.
+
+\bibitem{houben2002}
+H.~Houben, \emph{Roger II of Sicily: A Ruler between East and West}. Cambridge, U.K.: Cambridge Univ. Press, 2002.
+
+\bibitem{ohogan2022}
+C.~O{\textquotesingle}Hogan, ``The Harley trilingual psalter,'' in \emph{Medieval Multilingual Manuscripts}. Berlin, Germany: De Gruyter, 2022, pp.~165--182.
+
+\bibitem{hitip1958}
+菲利普·希提, \emph{阿拉伯通史}. 北京, 中国: 商务印书馆, 1958.
+
+\end{thebibliography}
+
+\end{document}
