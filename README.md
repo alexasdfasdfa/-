@@ -34,6 +34,7 @@ python extract_images.py
 | `compile.bat` | 一键编译 |
 | `extract_images.py` | 从 docx 提取并压缩图片 |
 | `编译说明.txt` | 常见问题 |
+| `mc-pve-combat-experience.md` | MC PVE 棱线射击、火炮数据链、热成像玩法设计 |
 
 ## 小组
 
