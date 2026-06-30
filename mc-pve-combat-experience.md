@@ -116,6 +116,45 @@
 - 热成像可由夜视、发光描边、着色器或客户端辅助模组表现。
 - 生存压力由弹药生产、电力、运输、维修和怪物攻城事件提供。
 
+## 已查到的整合包与组件
+
+检索结论：目前更容易找到的是“部分体系已经集成”的整合包，而不是一个开箱即同时完整覆盖棱线射击、火炮数据链、热成像三者的 PVE 包。最接近的路线是以 **Create + Create: Big Cannons + TaCZ** 为主体，再补 **Create: Radars** 和 **Modern Mayhem**。
+
+### 推荐优先级
+
+| 推荐 | 整合包/组合 | 能体验的内容 | 需要注意 |
+| --- | --- | --- | --- |
+| 1 | [Create TaCZ Integrated](https://www.modpackindex.com/modpack/139522/create-tacz-integrated) + [Modern Mayhem](https://www.modpackindex.com/mod/95509/mm-modern-mayhem) | TaCZ 枪械、Create 自动化、Create: Big Cannons、Valkyrien Skies、MineColonies、Create: Radars；补 Modern Mayhem 后可获得夜视和 COTI 热成像 | 这是最接近“火炮数据链 + 热成像 + 现代枪械”的路线；仍需要自己把怪物据点、波次或任务目标配置成 PVE |
+| 2 | [Create: Guns and Artillery](https://www.modpackindex.com/modpack/105371/create-guns-and-artillery) | 明确围绕 Create: Big Cannons 和 TaCZ，适合先体验火炮工程、弹药生产和枪械战斗 | 页面未显示热成像或雷达链路；建议额外加 Modern Mayhem / Create: Radars |
+| 3 | [Create & TaCZ](https://www.modpackindex.com/modpack/97405/create-tacz) | 轻量组合，包含 Create、TaCZ、Create: Big Cannons、Create: Armory、Create: Love & War | 更像工程+枪械基础包；数据链和热成像需要自行补齐 |
+| 4 | [Ground Zero Kill or Be killed](https://www.modpackindex.com/modpack/139608/ground-zero-kill-or-be-killed) / [Insomniac's Apocalypse](https://www.modpackindex.com/modpack/120357/insomniacs-apocalypse) | TaCZ + Modern Mayhem + 僵尸/末日 PVE 氛围，适合体验夜战、热像、战术枪械和怪潮压力 | 不以火炮和 Create 数据链为核心；要体验炮兵协同需再加 Create: Big Cannons、Create: Radars |
+| 5 | [Better TaCZ Modpack](https://modrinth.com/modpack/better-tacz-unofficial-modpark) | 以 TaCZ 和优化为中心，适合快速验证现代枪械手感 | 主要是枪械体验，缺火炮、雷达和热成像 |
+| 6 | Techguns / Modern Warfare Cubed 系整合包 | 老版本或替代路线，可体验枪械、夜视、敌对 NPC、载具/爆炸物等军武内容 | 版本、兼容性和现代 Create 生态差异较大；更适合作为参考，不是当前 1.20.1 体系的首选 |
+
+### 核心模组映射
+
+| 目标体验 | 优先查找的模组/内容 | 说明 |
+| --- | --- | --- |
+| 现代步枪、狙击、配件 | [TaCZ / Timeless and Classics Zero](https://modrinth.com/project/SzzJttH8) | 当前较常见的 1.20.1 现代枪械核心；支持枪包与服务器配置 |
+| 火炮、炮位、弹药工程 | Create: Big Cannons | 负责可建造火炮、炮弹、装填与工程化玩法 |
+| 火炮数据链/目标指示 | Create: Radars | 可提供雷达、目标显示、炮位指向等“数据链”近似体验 |
+| 弹药量产与后勤 | [Create: TaCZ Automation](https://www.curseforge.com/minecraft/mc-mods/create-tacz-automation) / Create: Immersive TaCZ Integration | 把 TaCZ 弹药和枪械制造接入 Create，避免战斗脱离生存后勤 |
+| 热成像/夜视装备 | [Modern Mayhem](https://www.modpackindex.com/mod/95509/mm-modern-mayhem) | 明确包含 NVG 和 COTI（Clip-On-Thermal-Imagers），并标注兼容 TaCZ |
+| PVE 压力 | 僵尸、袭击、据点、MineColonies、No Mindless Shooting 类机制 | 让开枪、炮击和夜视有实际目标，而不是只打靶 |
+
+### 建议安装路线
+
+如果要尽快体验，建议从 **Create TaCZ Integrated** 开始：
+
+1. 安装整合包并确认 TaCZ、Create: Big Cannons、Create: Radars 正常工作。
+2. 补装 Modern Mayhem，检查其依赖（如 GeckoLib、Curios）是否已满足。
+3. 新建 PVE 世界，在山地、村庄外围或自建据点附近测试：
+   - 山脊后潜行观察和射击；
+   - 雷达/观察点向炮位提供目标；
+   - 炮位远程打击刷怪点或怪潮；
+   - 夜间用 COTI/夜视搜索高威胁目标。
+4. 如果战斗资源过剩，加入或调高弹药制造成本、炮弹冷却、怪物波次强度。
+
 ## 推荐最小闭环
 
 如果只做第一版，优先完成以下闭环：
